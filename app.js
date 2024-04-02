@@ -10,14 +10,14 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {
     res.render('index' ,{
         title: 'Home',
-        name: 'Amay'    
+        name: 'Rohit Singh'    
 
     })
 })
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About',
-        name: 'Amay'
+        name: 'Rohit Singh'
     })
 })
 app.get('/help', (req, res) => {
